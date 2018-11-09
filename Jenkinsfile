@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Get') {
       steps {
-        shell('ls -al')
+        sh(script: 'ls -al')
       }
     }
   }
