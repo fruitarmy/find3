@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Get') {
       steps {
-        git(url: 'git@github.org:fruitarmy/find3', branch: 'jenkins')
+        git(url: 'https://github.com/fruitarmy/find3', branch: 'jenkins')
       }
     }
   }
